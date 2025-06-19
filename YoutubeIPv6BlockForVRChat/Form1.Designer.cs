@@ -52,7 +52,7 @@
             // 
             notifyIcon1.ContextMenuStrip = contextMenuStrip1;
             notifyIcon1.Icon = (Icon)resources.GetObject("notifyIcon1.Icon");
-            notifyIcon1.Text = "notifyIcon1";
+            notifyIcon1.Text = "YoutubeIPv6BlockForVRChat";
             notifyIcon1.Visible = true;
             // 
             // contextMenuStrip1
@@ -149,7 +149,7 @@
             label1.Name = "label1";
             label1.Size = new Size(34, 15);
             label1.TabIndex = 5;
-            label1.Text = "v1.00";
+            label1.Text = "v1.01";
             // 
             // timerCheckVRCInitializing
             // 
