@@ -120,7 +120,6 @@ namespace YoutubeIPv6BlockForVRChat
             Debug.WriteLine("Delete Task");
             var TaskName = Properties.Resources.AppName;
             var TaskService = new TaskService();
-            var Task = TaskService.GetTask(TaskName);
             TaskService.RootFolder.DeleteTask(TaskName);
         }
 
@@ -238,7 +237,7 @@ namespace YoutubeIPv6BlockForVRChat
                     return false;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
